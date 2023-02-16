@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* Print different c size types in bytes */
+/**
+ * main - print different C type size
+ * Return: 0
+ */
 
 int main(void)
 {
