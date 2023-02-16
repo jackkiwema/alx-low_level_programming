@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* Print different c size types in bytes */
+
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
