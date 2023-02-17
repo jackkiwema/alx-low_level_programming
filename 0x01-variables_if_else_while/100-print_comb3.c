@@ -3,7 +3,7 @@
 /**
  * main - program entrypoint
  *
- * Description - print double digits
+ * Description - print all possible double digits
  *
  * Return: 0 if success
  */
@@ -15,7 +15,7 @@ int main(void)
 	while (i <= 57)
 	{
 		j = i + 1;
-		
+
 		while (j <= 57)
 		{
 			if (!(i == 48 && j == 48))
@@ -23,17 +23,16 @@ int main(void)
 				putchar(i);
 				putchar(j);
 
-				
 				if (i < 56 || j < 57)
-				{	
+				{
 					putchar(44);
 					putchar(32);
 				}
-			
+
 			}
 
 			j++;
-		
+
 		}
 
 		i++;
@@ -43,4 +42,5 @@ int main(void)
 	putchar(10);
 
 	return (0);
+
 }
