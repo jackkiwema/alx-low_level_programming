@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - program entrypoint
+ * Description - Prints last digit
+ * Return: 0 if success
+ */
+
 int main(void)
 {
 	int n, number;
