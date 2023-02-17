@@ -1,7 +1,7 @@
-#include <stdio.h>
+# include <stdio.h>
 
-/**
- * main - program entrypoint
+/** 
+ * main - program entrypoint 
  *
  * Description - prints double array of numbers from 00 - 99
  *
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i = 0, j = 0;
+	int i, j = 0;
 
 	while (i <= 99)
 	{
@@ -18,7 +18,6 @@ int main(void)
 
 		while (j <= 99)
 		{
-		
 			putchar(i / 10 + '0');
 			putchar(i % 10 + '0');
 			putchar(32);
@@ -31,11 +30,12 @@ int main(void)
 				putchar(32);
 			}
 			j++;
+
 		}
 		i++;
 	}
-
 	putchar(10);
 
 	return (0);
+
 }
