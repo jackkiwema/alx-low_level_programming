@@ -10,14 +10,20 @@
 
 int main(void)
 {
-	int i, j = 48;
+	int i = 48, j;
 
-	while (i < 58)
+	while (i <= 57)
 	{
-		j += 1;
+		j = i + 1;
 		
-		while (j < 58)
+		while (j <= 57)
 		{
+			if (i == 48 && j == 49)
+			{
+				j++;
+				continue;
+			}
+
 			putchar(i);
 			putchar(j);
 
@@ -26,8 +32,10 @@ int main(void)
 				putchar(44);
 				putchar(32);
 			}
+
 			j++;
 		}
+
 		i++;
 	}
 
