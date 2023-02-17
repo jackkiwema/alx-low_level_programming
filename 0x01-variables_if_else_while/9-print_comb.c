@@ -2,13 +2,18 @@
 
 /**
  * main - program entrypoint
+ *
  * Description - prints numerals with comma followed by space
+ *
  * Return: 0 if success
  */
 
 int main(void)
 {
-	for (int i = 48; i <= 57; i++)
+
+	int i = 48;
+
+	while (i <= 57)
 	{
 		putchar(i);
 		if (i != 57)
@@ -16,7 +21,9 @@ int main(void)
 			putchar(44);
 			putchar(32);
 		}
+		i++;
 	}
+
 	putchar(10);
 
 	return (0);
