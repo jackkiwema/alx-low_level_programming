@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet letters 
+ * main - print alphabet letters
+ *
  * Description - runs main
+ *
  * Return: return 0 if success
  */
 
