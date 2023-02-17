@@ -1,7 +1,7 @@
 # include <stdio.h>
 
-/** 
- * main - program entrypoint 
+/**
+ * main - program entrypoint
  *
  * Description - prints double array of numbers from 00 - 99
  *
