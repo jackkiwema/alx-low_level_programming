@@ -2,20 +2,29 @@
 
 /**
  * main - program entrypoint
+ *
  * Description - prints lowercase base16
+ *
  * Return: 0 if success
  */
 
 int main(void)
 {
-	for (int i = 48; i <= 57; i++)
+	int i = 48;
+	int j = 97;
+
+	while (i <= 57)
 	{
 		putchar(i);
+		i++;
 	}
-	for (int j = 97; j <= 102; j++)
+
+	while (j <= 102)
 	{
 		putchar(j);
+		j++;
 	}
+
 	putchar(10);
 
 	return (0);
