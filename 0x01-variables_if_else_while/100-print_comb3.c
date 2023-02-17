@@ -10,7 +10,8 @@
 
 int main(void)
 {
-	int i = 48, j;
+	int i = 48;
+	int j;
 
 	while (i <= 57)
 	{
@@ -18,19 +19,16 @@ int main(void)
 		
 		while (j <= 57)
 		{
-			if (i == 48 && j == 49)
+			if (!(i == 48 && j == 48))
 			{
-				j++;
-				continue;
-			}
-
-			putchar(i);
-			putchar(j);
-
-			if (i < 56 || j < 57)
-			{
-				putchar(44);
-				putchar(32);
+				putchar(i);
+				putchar(j);
+			
+				if (i < 56 || j < 57)
+				{	
+					putchar(44);
+					putchar(32);
+				}
 			}
 
 			j++;
