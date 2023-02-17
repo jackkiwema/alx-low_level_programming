@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - print alphabet letters 
- * Description - runs main
- * Return: return 0 if success
- */
-
 int main(void)
 {
 	int i = 97;
@@ -16,7 +10,6 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-
 	while (j <= 90)
 	{
 		putchar(j);
@@ -25,4 +18,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
