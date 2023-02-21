@@ -10,12 +10,11 @@ int main(void)
 {
 	unsigned long a = 1;
 	unsigned long b = 2;
-	unsigned long sum;
 	int i;
 
 	printf("%lu, %lu", a, b);
 
-	for (i = 3; i <= 98; i++)
+	for (i = 3; i < 98; i++)
 	{
 		unsigned long sum = a + b;
 
