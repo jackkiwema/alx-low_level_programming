@@ -8,26 +8,21 @@
 
 int main(void)
 {
-	int first = 1, second = 2, next;
-	int count = 2;
+	int a = 1;
+	int b = 2;
+	int i, sum;
 
-	printf("%d, %d, ", first, second);
+	printf("%d, %d", a, b);
 
-	while (count < 98)
+	for (i = 3; i <= 98; i++)
 	{
-		next = first + second;
-		printf("%d", next);
+		sum = a + b;
 
-		if (count < 97)
-		{
-			printf(", ");
-		}
-
-		first = second;
-		second = next;
-		count++;
+		printf(", %d", sum);
+		a = b;
+		b = sum;
 	}
-	
+
 	printf("\n");
 
 	return (0);
