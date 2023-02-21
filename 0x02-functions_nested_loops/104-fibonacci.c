@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 3; i <= 98; i++)
 	{
-		unsigned long long sum = a + b;
+		unsigned long sum = a + b;
 
 		printf(", %lu", sum);
 		a = b;
