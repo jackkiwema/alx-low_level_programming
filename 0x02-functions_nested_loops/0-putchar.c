@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - program entrypoint
@@ -16,9 +16,9 @@ int main(void)
 
 	for (i = 0; i <= 8; i++)
 	{
-		putchar(text[i]);
+		_putchar(text[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
