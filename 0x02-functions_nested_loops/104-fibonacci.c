@@ -10,7 +10,8 @@ int main(void)
 {
 	unsigned long a = 1;
 	unsigned long b = 2;
-	int i, sum;
+	unsigned long sum;
+	int i;
 
 	printf("%lu, %lu", a, b);
 
