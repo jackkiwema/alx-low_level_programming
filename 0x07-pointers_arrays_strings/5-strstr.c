@@ -9,19 +9,11 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j, start;
-
-	i = 0;
-	j = 0;
+	int i, j;
 
 	if (needle[0] != '\0')
-	{
-		nlen++;
-	}
-	else
-	{
 		return (haystack);
-	}
+
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		if (haystack[i] == needle[0])
