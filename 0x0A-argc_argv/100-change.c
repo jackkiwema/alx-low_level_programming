@@ -14,7 +14,7 @@ int make_change(int n)
 
 	coins = 0;
 	quarters = 0;
-	dimes = 0; 
+	dimes = 0;
 	nickels = 0;
 	twocents = 0;
 	pennies = 0;
